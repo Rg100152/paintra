@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Commissions — PAINTRA Fine Art Editions</title>
+  <meta name="description" content="Commission an original painting from the PAINTRA studio. Tell us about the room, the mood and the memory — we’ll match you with an artist.">
+  <meta name="theme-color" content="#f3ece0">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2322201b'/%3E%3Cpath d='M21 49V15h14a11.5 11.5 0 0 1 0 23h-7v11z' fill='%23a8472a'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&amp;family=Instrument+Sans:ital,wght@0,400..600;1,400..500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    if (window.tailwind) {
+      tailwind.config = { corePlugins: { preflight: false, container: false } };
+    }
+  </script>
+  <noscript><style>.preloader{display:none!important}</style></noscript>
+</head>
+<body id="top">
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <p class="preloader__mark">PAINTRA<span>.</span></p>
+      <p class="preloader__line">Fine art for rooms with a soul</p>
+      <div class="preloader__bar"><span></span></div>
+    </div>
+  </div>
+
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <div class="announce">
+    <div class="container announce__inner">
+      <p>Complimentary worldwide shipping over ₹25,000</p>
+      <p class="announce__side">New editions monthly <span>·</span> Certificate of authenticity included</p>
+    </div>
+  </div>
+
+  <header class="site-nav">
+    <div class="container site-nav__inner">
+      <a href="index.html" class="brand" aria-label="PAINTRA — home">
+        <span class="brand__name">PAINTRA<span class="brand__dot">.</span></span>
+        <span class="brand__sub">Fine Art Editions</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="gallery.html">The Collection</a>
+        <a href="index.html#artists">Artists</a>
+        <a href="booking.html">Commissions</a>
+        <a href="index.html#story">Our Story</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="bag-btn" type="button" data-cart-open>
+          <span>Bag</span>
+          <span class="bag-count" data-cart-count>0</span>
+        </button>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="sr-only">Open menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="container mobile-menu__inner">
+      <nav class="mobile-menu__nav" aria-label="Mobile navigation">
+        <a href="gallery.html" class="mobile-menu__link"><span>01</span>The Collection</a>
+        <a href="index.html#artists" class="mobile-menu__link"><span>02</span>Artists</a>
+        <a href="booking.html" class="mobile-menu__link"><span>03</span>Commissions</a>
+        <a href="index.html#story" class="mobile-menu__link"><span>04</span>Our Story</a>
+      </nav>
+
+      <div class="mobile-menu__panel">
+        <div>
+          <p class="mobile-menu__label">Represented artists</p>
+          <div class="mobile-menu__artists">
+            <a href="gallery.html?artist=aiartman">Aiartman</a>
+            <a href="gallery.html?artist=celistima">Celistima</a>
+            <a href="gallery.html?artist=fantasy_ai_author">Fantasy AI</a>
+            <a href="gallery.html?artist=lofipromt">Lofipromt</a>
+            <a href="gallery.html?artist=maxvoao">Maxvoao</a>
+          </div>
+        </div>
+        <div>
+          <p class="mobile-menu__label">Your visit</p>
+          <button type="button" class="mobile-menu__bag" data-cart-open>
+            View bag <span data-cart-count>0</span>
+          </button>
+          <a href="mailto:hello@paintra.studio" class="mobile-menu__mail">hello@paintra.studio</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <section class="booking-page">
+      <div class="container">
+        <div class="booking-head">
+          <div class="booking-head__top">
+            <p class="eyebrow">Commissions</p>
+            <span>Made once, for you <i>·</i> Replies within 48 hours</span>
+          </div>
+          <h1 class="booking-title">Commission a piece<br>that feels <em>like you.</em></h1>
+          <p class="booking-head__intro">Tell us about the room, the mood, the memory. We’ll match you with the right artist and shape an original work from the first sketch to the final print.</p>
+        </div>
+
+        <div class="booking-layout">
+          <aside class="booking-aside">
+            <div class="booking-aside__sticky">
+              <p class="eyebrow">How it works</p>
+              <ol class="steps">
+                <li>
+                  <span>01</span>
+                  <div>
+                    <strong>Share the idea</strong>
+                    <p>Fill in the brief with as much or as little detail as you like.</p>
+                  </div>
+                </li>
+                <li>
+                  <span>02</span>
+                  <div>
+                    <strong>Meet your artist</strong>
+                    <p>We’ll reply within 48 hours with a proposal, timeline and quote.</p>
+                  </div>
+                </li>
+                <li>
+                  <span>03</span>
+                  <div>
+                    <strong>Made, then sent</strong>
+                    <p>Approve the final work, and we’ll print and ship it with care.</p>
+                  </div>
+                </li>
+              </ol>
+
+              <div class="selected-work" data-selected-work hidden>
+                <img alt="" data-selected-img>
+                <div class="selected-work__text">
+                  <span>Starting from</span>
+                  <strong data-selected-title>Untitled</strong>
+                  <em data-selected-artist>From the archive</em>
+                </div>
+                <a href="gallery.html" class="selected-work__change">Change</a>
+              </div>
+
+              <div class="booking-aside__contact">
+                <span class="booking-aside__label">Prefer email?</span>
+                <a href="mailto:hello@paintra.studio">hello@paintra.studio <span>↗</span></a>
+              </div>
+            </div>
+          </aside>
+
+          <div class="booking-panel">
+            <div class="booking-panel__head">
+              <div>
+                <span class="booking-panel__step">Step 01 — The brief</span>
+                <h2>Tell us about your piece</h2>
+              </div>
+              <span class="booking-panel__note">No payment required</span>
+            </div>
+
+            <form id="booking-form" class="booking-form" novalidate>
+              <div class="form-row">
+                <div class="field" data-field="name">
+                  <label for="name">Your name <span class="req">*</span></label>
+                  <input type="text" id="name" name="name" autocomplete="name" placeholder="Jane Doe" required aria-describedby="error-name">
+                  <p class="field__error" id="error-name" data-error></p>
+                </div>
+
+                <div class="field" data-field="email">
+                  <label for="email">Email <span class="req">*</span></label>
+                  <input type="email" id="email" name="email" autocomplete="email" placeholder="jane@studio.com" required aria-describedby="error-email">
+                  <p class="field__error" id="error-email" data-error></p>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="field" data-field="artist">
+                  <label for="artist">Artist <span class="req">*</span></label>
+                  <div class="select-wrap">
+                    <select id="artist" name="artist" required aria-describedby="error-artist">
+                      <option value="">Choose an artist</option>
+                      <option value="aiartman">Aiartman — cinematic portraits</option>
+                      <option value="celistima">Celistima — ethereal figures</option>
+                      <option value="fantasy_ai_author">Fantasy AI — mythic realms</option>
+                      <option value="lofipromt">Lofipromt — atmospheric worlds</option>
+                      <option value="maxvoao">Maxvoao — expressive figures</option>
+                      <option value="no-preference">No preference — guide me</option>
+                    </select>
+                  </div>
+                  <p class="field__error" id="error-artist" data-error></p>
+                </div>
+
+                <div class="field" data-field="style">
+                  <label for="style">Style <span class="req">*</span></label>
+                  <div class="select-wrap">
+                    <select id="style" name="style" required aria-describedby="error-style">
+                      <option value="">Choose a style</option>
+                      <option value="portrait">Portrait / figure</option>
+                      <option value="fantasy">Fantasy / mythic</option>
+                      <option value="ethereal">Ethereal / dreamlike</option>
+                      <option value="landscape">Landscape / atmospheric</option>
+                      <option value="abstract">Abstract / expressive</option>
+                      <option value="open">Open to ideas</option>
+                    </select>
+                  </div>
+                  <p class="field__error" id="error-style" data-error></p>
+                </div>
+              </div>
+
+              <div class="field" data-field="budget">
+                <label for="budget">Budget <span class="req">*</span></label>
+                <div class="select-wrap">
+                  <select id="budget" name="budget" required aria-describedby="error-budget">
+                    <option value="">Choose a range</option>
+                    <option value="10000-25000">₹10,000 – ₹25,000</option>
+                    <option value="25000-50000">₹25,000 – ₹50,000</option>
+                    <option value="50000-100000">₹50,000 – ₹1,00,000</option>
+                    <option value="100000-plus">₹1,00,000 +</option>
+                  </select>
+                </div>
+                <p class="field__error" id="error-budget" data-error></p>
+              </div>
+
+              <div class="field" data-field="message">
+                <label for="message">The idea <span class="req">*</span></label>
+                <textarea id="message" name="message" rows="6" placeholder="A quiet forest at dusk. Something that feels like a memory rather than a place..." required aria-describedby="error-message"></textarea>
+                <p class="field__error" id="error-message" data-error></p>
+              </div>
+
+              <div class="booking-form__foot">
+                <p class="booking-form__privacy">Your details stay with the studio. No lists, no noise.</p>
+                <button type="submit" class="btn btn--primary" data-submit>
+                  <span data-submit-label>Send the brief</span>
+                  <span class="arrow">↗</span>
+                </button>
+              </div>
+
+              <input type="text" name="_company" tabindex="-1" autocomplete="off" aria-hidden="true" class="hp-field">
+            </form>
+
+            <div class="form-success" data-form-success hidden tabindex="-1">
+              <span class="form-success__mark" aria-hidden="true">
+                <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.1"><circle cx="32" cy="32" r="25"/><path d="M20 32l8 8 16-18"/></svg>
+              </span>
+              <p class="eyebrow">Brief received</p>
+              <h2>Thank you, <span data-success-name>friend</span>.</h2>
+              <p class="form-success__copy">Your commission brief is with the studio. We’ll reply to <strong data-success-email>—</strong> within 48 hours with next steps.</p>
+
+              <dl class="form-success__summary">
+                <div><dt>Artist</dt><dd data-success-artist>—</dd></div>
+                <div><dt>Style</dt><dd data-success-style>—</dd></div>
+                <div><dt>Budget</dt><dd data-success-budget>—</dd></div>
+              </dl>
+
+              <button type="button" class="btn btn--text" data-form-reset>Send another brief <span>↗</span></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="booking-assurances">
+          <div><span>01</span><strong>No payment required</strong><p>Start with a conversation. Nothing is charged until you approve the proposal.</p></div>
+          <div><span>02</span><strong>One artist, one piece</strong><p>Your commission is made once, with the artist’s full attention.</p></div>
+          <div><span>03</span><strong>Replies within 48 hours</strong><p>A real person from the studio, not an automated confirmation.</p></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__top">
+      <div class="footer__brand">
+        <a href="index.html" class="brand brand--footer" aria-label="PAINTRA — home">
+          <span class="brand__name">PAINTRA<span class="brand__dot">.</span></span>
+          <span class="brand__sub">Fine Art Editions</span>
+        </a>
+        <p>Fine art editions for rooms with a soul. Printed slowly, sent with care, made to be lived with.</p>
+
+        <form class="newsletter" data-newsletter novalidate>
+          <label for="newsletter-email">Notes from the studio</label>
+          <div class="newsletter__row">
+            <input type="email" id="newsletter-email" name="email" placeholder="Your email address" autocomplete="email" required>
+            <button type="submit" aria-label="Join the newsletter">Join <span>↗</span></button>
+          </div>
+          <p class="newsletter__note" data-newsletter-note>New works, studio notes, no noise.</p>
+        </form>
+      </div>
+
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4>Shop</h4>
+          <a href="gallery.html">All works</a>
+          <a href="gallery.html?artist=aiartman">New arrivals</a>
+          <a href="index.html#editions">Edition guide</a>
+          <a href="booking.html">Commissions</a>
+        </div>
+        <div class="footer__col">
+          <h4>Studio</h4>
+          <a href="index.html#story">Our story</a>
+          <a href="index.html#artists">Artists</a>
+          <a href="booking.html">Commission process</a>
+          <a href="mailto:hello@paintra.studio">Contact</a>
+        </div>
+        <div class="footer__col">
+          <h4>Care</h4>
+          <a href="index.html#editions">Materials</a>
+          <a href="index.html#editions">Shipping &amp; returns</a>
+          <a href="index.html#editions">Framing advice</a>
+          <a href="mailto:hello@paintra.studio">hello@paintra.studio</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <span>© <span data-year>2026</span> PAINTRA. All rights reserved.</span>
+      <span class="footer__motto">Made for the walls you live between.</span>
+      <div class="footer__social">
+        <a href="#" aria-label="PAINTRA on Instagram">Instagram</a>
+        <a href="#" aria-label="PAINTRA on Pinterest">Pinterest</a>
+        <a href="mailto:hello@paintra.studio">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script src="js/artworks.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/shop.js"></script>
+  <script src="js/booking.js"></script>
+</body>
+</html>

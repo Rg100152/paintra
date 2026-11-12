@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Collection — PAINTRA Fine Art Editions</title>
+  <meta name="description" content="Browse all 61 works in the PAINTRA archive. Limited-edition fantasy art from five artists, available in three museum-grade sizes.">
+  <meta name="theme-color" content="#f3ece0">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2322201b'/%3E%3Cpath d='M21 49V15h14a11.5 11.5 0 0 1 0 23h-7v11z' fill='%23a8472a'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&amp;family=Instrument+Sans:ital,wght@0,400..600;1,400..500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    if (window.tailwind) {
+      tailwind.config = { corePlugins: { preflight: false, container: false } };
+    }
+  </script>
+  <noscript><style>.preloader{display:none!important}</style></noscript>
+</head>
+<body id="top">
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <p class="preloader__mark">PAINTRA<span>.</span></p>
+      <p class="preloader__line">Fine art for rooms with a soul</p>
+      <div class="preloader__bar"><span></span></div>
+    </div>
+  </div>
+
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <div class="announce">
+    <div class="container announce__inner">
+      <p>Complimentary worldwide shipping over ₹25,000</p>
+      <p class="announce__side">New editions monthly <span>·</span> Certificate of authenticity included</p>
+    </div>
+  </div>
+
+  <header class="site-nav">
+    <div class="container site-nav__inner">
+      <a href="index.html" class="brand" aria-label="PAINTRA — home">
+        <span class="brand__name">PAINTRA<span class="brand__dot">.</span></span>
+        <span class="brand__sub">Fine Art Editions</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="gallery.html">The Collection</a>
+        <a href="index.html#artists">Artists</a>
+        <a href="booking.html">Commissions</a>
+        <a href="index.html#story">Our Story</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="bag-btn" type="button" data-cart-open>
+          <span>Bag</span>
+          <span class="bag-count" data-cart-count>0</span>
+        </button>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="sr-only">Open menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="container mobile-menu__inner">
+      <nav class="mobile-menu__nav" aria-label="Mobile navigation">
+        <a href="gallery.html" class="mobile-menu__link"><span>01</span>The Collection</a>
+        <a href="index.html#artists" class="mobile-menu__link"><span>02</span>Artists</a>
+        <a href="booking.html" class="mobile-menu__link"><span>03</span>Commissions</a>
+        <a href="index.html#story" class="mobile-menu__link"><span>04</span>Our Story</a>
+      </nav>
+
+      <div class="mobile-menu__panel">
+        <div>
+          <p class="mobile-menu__label">Represented artists</p>
+          <div class="mobile-menu__artists">
+            <a href="gallery.html?artist=aiartman">Aiartman</a>
+            <a href="gallery.html?artist=celistima">Celistima</a>
+            <a href="gallery.html?artist=fantasy_ai_author">Fantasy AI</a>
+            <a href="gallery.html?artist=lofipromt">Lofipromt</a>
+            <a href="gallery.html?artist=maxvoao">Maxvoao</a>
+          </div>
+        </div>
+        <div>
+          <p class="mobile-menu__label">Your visit</p>
+          <button type="button" class="mobile-menu__bag" data-cart-open>
+            View bag <span data-cart-count>0</span>
+          </button>
+          <a href="mailto:hello@paintra.studio" class="mobile-menu__mail">hello@paintra.studio</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <section class="collection-head">
+      <div class="container">
+        <div class="collection-head__top">
+          <p class="eyebrow">The archive</p>
+          <span>61 works <i>·</i> 5 artists <i>·</i> 2026</span>
+        </div>
+
+        <h1 class="collection-title">The <em>collection.</em></h1>
+
+        <div class="collection-head__row">
+          <p>Original fantasy works, reproduced as limited editions on museum-grade cotton rag. Choose a piece, choose its scale, and we’ll print it just for you.</p>
+          <div class="collection-head__filters">
+            <span>Edition of 25</span>
+            <span>Certificate included</span>
+            <span>Ships in 5–7 days</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="collection">
+      <div class="container">
+
+        <div class="collection-toolbar">
+          <div class="filters" role="group" aria-label="Filter by artist">
+            <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All <span data-filter-count="all">61</span></button>
+            <button type="button" class="filter" data-filter="aiartman" aria-pressed="false">Aiartman <span data-filter-count="aiartman">07</span></button>
+            <button type="button" class="filter" data-filter="celistima" aria-pressed="false">Celistima <span data-filter-count="celistima">10</span></button>
+            <button type="button" class="filter" data-filter="fantasy_ai_author" aria-pressed="false">Fantasy AI <span data-filter-count="fantasy_ai_author">20</span></button>
+            <button type="button" class="filter" data-filter="lofipromt" aria-pressed="false">Lofipromt <span data-filter-count="lofipromt">09</span></button>
+            <button type="button" class="filter" data-filter="maxvoao" aria-pressed="false">Maxvoao <span data-filter-count="maxvoao">15</span></button>
+          </div>
+
+          <div class="collection-tools">
+            <label class="search-field" for="gallery-search">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+              <input type="search" id="gallery-search" placeholder="Search works or artists" autocomplete="off">
+            </label>
+
+            <label class="sort-field" for="gallery-sort">
+              <span>Sort</span>
+              <select id="gallery-sort">
+                <option value="featured">Featured</option>
+                <option value="price-asc">Price, low to high</option>
+                <option value="price-desc">Price, high to low</option>
+                <option value="title">Title, A–Z</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div class="collection-meta">
+          <p>Showing <span class="js-visible-count">61</span> works</p>
+          <p class="collection-meta__note">All prices include the certificate of authenticity. Shipping calculated at checkout.</p>
+        </div>
+
+        <div class="gallery__grid" id="gallery-grid"></div>
+
+        <noscript>
+          <p class="collection-noscript">Please enable JavaScript to browse the interactive collection. You can still email <a href="mailto:hello@paintra.studio">hello@paintra.studio</a> for the full catalogue.</p>
+        </noscript>
+
+        <div class="collection-empty" hidden>
+          <p class="eyebrow">Nothing here yet</p>
+          <h2>No works match that search.</h2>
+          <p>Try another artist, a different word, or browse the entire archive.</p>
+          <button type="button" class="btn btn--primary" data-clear-filters>Clear filters <span class="arrow">↗</span></button>
+        </div>
+
+        <div class="collection-foot">
+          <p>Looking for something specific? We can also make an original piece with you.</p>
+          <a href="booking.html" class="link-arrow">Start a commission <span>↗</span></a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__top">
+      <div class="footer__brand">
+        <a href="index.html" class="brand brand--footer" aria-label="PAINTRA — home">
+          <span class="brand__name">PAINTRA<span class="brand__dot">.</span></span>
+          <span class="brand__sub">Fine Art Editions</span>
+        </a>
+        <p>Fine art editions for rooms with a soul. Printed slowly, sent with care, made to be lived with.</p>
+
+        <form class="newsletter" data-newsletter novalidate>
+          <label for="newsletter-email">Notes from the studio</label>
+          <div class="newsletter__row">
+            <input type="email" id="newsletter-email" name="email" placeholder="Your email address" autocomplete="email" required>
+            <button type="submit" aria-label="Join the newsletter">Join <span>↗</span></button>
+          </div>
+          <p class="newsletter__note" data-newsletter-note>New works, studio notes, no noise.</p>
+        </form>
+      </div>
+
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4>Shop</h4>
+          <a href="gallery.html">All works</a>
+          <a href="gallery.html?artist=aiartman">New arrivals</a>
+          <a href="index.html#editions">Edition guide</a>
+          <a href="booking.html">Commissions</a>
+        </div>
+        <div class="footer__col">
+          <h4>Studio</h4>
+          <a href="index.html#story">Our story</a>
+          <a href="index.html#artists">Artists</a>
+          <a href="booking.html">Commission process</a>
+          <a href="mailto:hello@paintra.studio">Contact</a>
+        </div>
+        <div class="footer__col">
+          <h4>Care</h4>
+          <a href="index.html#editions">Materials</a>
+          <a href="index.html#editions">Shipping &amp; returns</a>
+          <a href="index.html#editions">Framing advice</a>
+          <a href="mailto:hello@paintra.studio">hello@paintra.studio</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <span>© <span data-year>2026</span> PAINTRA. All rights reserved.</span>
+      <span class="footer__motto">Made for the walls you live between.</span>
+      <div class="footer__social">
+        <a href="#" aria-label="PAINTRA on Instagram">Instagram</a>
+        <a href="#" aria-label="PAINTRA on Pinterest">Pinterest</a>
+        <a href="mailto:hello@paintra.studio">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Artwork detail -->
+  <div class="art-modal" id="art-modal" role="dialog" aria-modal="true" aria-labelledby="art-modal-title" aria-hidden="true">
+    <div class="art-modal__overlay" data-lb-dismiss></div>
+
+    <div class="art-modal__panel">
+      <button type="button" class="art-modal__close" data-lb-close aria-label="Close artwork viewer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg>
+      </button>
+
+      <div class="art-modal__visual">
+        <div class="art-modal__frame">
+          <img class="art-modal__image" alt="">
+        </div>
+
+        <div class="art-modal__counter">
+          <span data-lb-current>01</span> <i>/</i> <span data-lb-total>61</span>
+        </div>
+
+        <div class="art-modal__nav">
+          <button type="button" class="art-modal__arrow" data-lb-prev aria-label="Previous artwork">←</button>
+          <button type="button" class="art-modal__arrow" data-lb-next aria-label="Next artwork">→</button>
+        </div>
+      </div>
+
+      <div class="art-modal__info">
+        <p class="eyebrow" data-lb-number>No. 01 / 61</p>
+        <h2 class="art-modal__title" id="art-modal-title">Silent Reverie</h2>
+        <p class="art-modal__artist">Aiartman · Portraits · 2026</p>
+        <p class="art-modal__desc">A portrait study from the 2026 series, reproduced as a limited edition on 310gsm cotton rag.</p>
+
+        <div class="art-modal__buy">
+          <div class="art-modal__price-row">
+            <span>Edition price</span>
+            <strong data-lb-price>₹6,200</strong>
+          </div>
+
+          <div class="size-grid" data-lb-sizes></div>
+
+          <div class="art-modal__add-row">
+            <div class="qty" aria-label="Quantity">
+              <button type="button" data-lb-dec aria-label="Decrease quantity">−</button>
+              <span data-lb-qty>1</span>
+              <button type="button" data-lb-inc aria-label="Increase quantity">+</button>
+            </div>
+            <button type="button" class="btn btn--primary art-modal__add" data-lb-add>
+              <span data-lb-add-label>Add to bag — ₹6,200</span>
+              <span class="arrow">↗</span>
+            </button>
+          </div>
+
+          <p class="art-modal__note">Edition of 25 · Signed, numbered &amp; embossed · Ships in 5–7 days</p>
+        </div>
+
+        <a href="booking.html" class="art-modal__book" data-lb-book>Commission something in this style <span>↗</span></a>
+
+        <details class="art-modal__detail">
+          <summary>Materials &amp; framing</summary>
+          <p>Archival pigment print on 310gsm cotton rag, with a 2 cm white border for framing. Unframed by default; framing can be arranged after checkout.</p>
+        </details>
+
+        <details class="art-modal__detail">
+          <summary>Shipping &amp; returns</summary>
+          <p>Printed to order and dispatched within 5–7 working days. Tracked worldwide. Thirty-day returns on unframed editions, in original packaging.</p>
+        </details>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script src="js/artworks.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/shop.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>
